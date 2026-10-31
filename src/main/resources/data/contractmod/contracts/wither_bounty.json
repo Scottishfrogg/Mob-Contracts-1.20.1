@@ -1,0 +1,21 @@
+{
+  "type": "bounty",
+  "name": "Wither Bounty",
+  "task": "Kill the Wither",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:wither"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "xp": 70
+  }
+}

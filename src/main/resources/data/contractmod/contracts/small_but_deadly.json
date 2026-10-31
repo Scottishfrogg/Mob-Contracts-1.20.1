@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Small but Deadly",
+  "task": "Kill 5 Endermites",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:endermite"
+      ],
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 4
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2
+      }
+    ],
+    "xp": 25
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "The Silent Hunter",
+  "task": "Kill a Warden without triggering its sonic boom attack",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:warden"
+      ],
+      "count": 1,
+      "condition": "no_sonic_boom"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:echo_shard",
+        "count": 32
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple",
+        "count": 3
+      }
+    ],
+    "xp": 80
+  }
+}

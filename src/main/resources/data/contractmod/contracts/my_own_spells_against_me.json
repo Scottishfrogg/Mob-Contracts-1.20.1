@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "My own spells against me",
+  "task": "Use an Ender Pearl while an Enderman is chasing you",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "ender_pearl_while_chased",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 4
+      }
+    ],
+    "xp": 20
+  }
+}

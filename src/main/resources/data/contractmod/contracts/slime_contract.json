@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Slime Contract",
+  "task": "Kill 1 Slime",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:slime"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:slime_ball",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

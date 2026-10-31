@@ -1,0 +1,8 @@
+{
+  "item.contractmod.contract": "Contract",
+  "item.contractmod.bounty": "Bounty",
+  "item.contractmod.covenant": "Covenant",
+  "key.contractmod.cancel": "Cancel Active Contract",
+  "key.contractmod.history": "Hunt History",
+  "key.categories.contractmod": "Mob Contracts"
+}

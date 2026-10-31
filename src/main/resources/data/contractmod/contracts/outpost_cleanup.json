@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Outpost Cleanup",
+  "task": "Kill 5 Pillagers",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:pillager"
+      ],
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:crossbow"
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 32
+      }
+    ],
+    "xp": 25
+  }
+}

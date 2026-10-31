@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Web Slinger",
+  "task": "Kill 3 Spiders",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:spider"
+      ],
+      "count": 3
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:string",
+        "count": 12
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "count": 5
+      }
+    ],
+    "xp": 20
+  }
+}

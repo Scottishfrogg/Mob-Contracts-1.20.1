@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Second Chance",
+  "task": "Cure 1 Zombie Villager",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "zombie_villager_cured",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:emerald",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

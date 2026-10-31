@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Zombie Contract",
+  "task": "Kill 1 Zombie",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:oak_planks",
+        "count": 5
+      }
+    ],
+    "xp": 5
+  }
+}

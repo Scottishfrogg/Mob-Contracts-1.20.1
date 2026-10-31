@@ -1,0 +1,29 @@
+{
+  "type": "contract",
+  "name": "Blaze of Glory",
+  "task": "Kill 5 Blazes without leaving the Nether",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:blaze"
+      ],
+      "count": 5,
+      "condition": "in_dimension:minecraft:the_nether",
+      "reset_on": "leave_nether"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 16
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 5
+      }
+    ],
+    "xp": 40
+  }
+}

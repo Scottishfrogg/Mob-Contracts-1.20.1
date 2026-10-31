@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Guardian Contract",
+  "task": "Kill 1 Guardian",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:guardian"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 10
+      },
+      {
+        "item": "minecraft:pufferfish"
+      }
+    ],
+    "xp": 30
+  }
+}

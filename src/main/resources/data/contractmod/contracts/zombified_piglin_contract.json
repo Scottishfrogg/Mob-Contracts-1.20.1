@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Zombified Piglin Contract",
+  "task": "Kill 1 Zombified Piglin",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombified_piglin"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 10
+      }
+    ],
+    "xp": 30
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Blaze Contract",
+  "task": "Kill 1 Blaze",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:blaze"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 5
+      }
+    ],
+    "xp": 30
+  }
+}

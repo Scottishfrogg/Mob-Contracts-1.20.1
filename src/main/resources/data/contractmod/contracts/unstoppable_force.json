@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Unstoppable Force",
+  "task": "Kill 3 Ravagers without using a bow or crossbow",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:ravager"
+      ],
+      "count": 3,
+      "condition": "no_bow_or_crossbow"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:totem_of_undying",
+        "count": 3
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 50
+      }
+    ],
+    "xp": 70
+  }
+}

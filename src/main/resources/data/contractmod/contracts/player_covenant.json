@@ -1,0 +1,25 @@
+{
+  "type": "covenant",
+  "name": "Player Covenant",
+  "task": "Kill {target}",
+  "target": "player",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    ],
+    "xp": 100
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Creepy",
+  "task": "Kill 5 Creepers",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 3
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 20
+      }
+    ],
+    "xp": 20
+  }
+}

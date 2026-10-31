@@ -1,0 +1,18 @@
+{
+  "type": "contract",
+  "name": "Endermite Contract",
+  "task": "Kill 1 Endermite",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:endermite"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [],
+    "xp": 65
+  }
+}

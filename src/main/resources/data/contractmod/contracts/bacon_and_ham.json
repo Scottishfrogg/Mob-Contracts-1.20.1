@@ -1,0 +1,35 @@
+{
+  "type": "contract",
+  "name": "Bacon and Ham",
+  "task": "Kill one Piglin, one Hoglin, and one Pig",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:piglin"
+      ],
+      "count": 1
+    },
+    {
+      "entities": [
+        "minecraft:hoglin"
+      ],
+      "count": 1
+    },
+    {
+      "entities": [
+        "minecraft:pig"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "count": 64
+      }
+    ],
+    "xp": 40
+  }
+}

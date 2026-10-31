@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Undead Uprising",
+  "task": "Kill 15 Zombies without sleeping for 3 days",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 15,
+      "condition": "awake_days:3"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 32
+      },
+      {
+        "item": "minecraft:iron_nugget",
+        "count": 64
+      }
+    ],
+    "xp": 35
+  }
+}

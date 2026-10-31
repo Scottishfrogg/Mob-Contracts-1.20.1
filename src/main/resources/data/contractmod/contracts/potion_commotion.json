@@ -1,0 +1,29 @@
+{
+  "type": "contract",
+  "name": "Potion Commotion",
+  "task": "Kill 3 Witches",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:witch"
+      ],
+      "count": 3
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:potion",
+        "count": 3,
+        "nbt": "{Potion:\"minecraft:healing\"}"
+      },
+      {
+        "item": "minecraft:potion",
+        "count": 3,
+        "nbt": "{Potion:\"minecraft:swiftness\"}"
+      }
+    ],
+    "xp": 20
+  }
+}

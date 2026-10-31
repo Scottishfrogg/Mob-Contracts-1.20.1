@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "No Sound",
+  "task": "Kill 1 Warden with Swift Sneak on your leggings",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:warden"
+      ],
+      "count": 1,
+      "condition": "swift_sneak_leggings"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:echo_shard",
+        "count": 32
+      },
+      {
+        "item": "minecraft:netherite_ingot",
+        "count": 3
+      }
+    ],
+    "xp": 100
+  }
+}

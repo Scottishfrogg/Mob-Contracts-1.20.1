@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Zombie Villager Contract",
+  "task": "Kill 1 Zombie Villager",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie_villager"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    ],
+    "xp": 10
+  }
+}

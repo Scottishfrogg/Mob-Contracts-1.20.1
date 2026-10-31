@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Spider Bounty",
+  "task": "Kill 1 Spider with only your fists",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:spider"
+      ],
+      "count": 1,
+      "condition": "fists_only"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 10
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 10
+      }
+    ],
+    "xp": 5
+  }
+}

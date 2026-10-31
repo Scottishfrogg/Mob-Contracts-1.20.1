@@ -1,0 +1,26 @@
+{
+  "type": "bounty",
+  "name": "Warden Bounty",
+  "task": "Kill 1 Warden",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:warden"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5}]}"
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+      }
+    ],
+    "xp": 100
+  }
+}

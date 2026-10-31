@@ -1,0 +1,25 @@
+{
+  "type": "contract",
+  "name": "Drowned Contract",
+  "task": "Kill 1 Drowned",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:drowned"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:nautilus_shell"
+      },
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 5
+      }
+    ],
+    "xp": 10
+  }
+}

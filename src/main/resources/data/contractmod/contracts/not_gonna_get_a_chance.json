@@ -1,0 +1,31 @@
+{
+  "type": "contract",
+  "name": "Not gonna get a chance",
+  "task": "Kill a Creeper from 20 blocks away",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "count": 1,
+      "condition": "distance:20"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 25
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 5
+      },
+      {
+        "item": "minecraft:spyglass"
+      }
+    ],
+    "xp": 20
+  }
+}

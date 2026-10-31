@@ -1,0 +1,48 @@
+{
+  "type": "covenant",
+  "name": "Webbed Up",
+  "task": "Kill Webweaver",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:spider",
+    "name": "Webweaver",
+    "dimension": "minecraft:overworld",
+    "effects": [
+      {
+        "effect": "minecraft:resistance",
+        "amplifier": 1
+      },
+      {
+        "effect": "minecraft:health_boost",
+        "amplifier": 1
+      },
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:strength",
+        "amplifier": 1
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 32
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 16
+      }
+    ],
+    "xp": 45
+  }
+}

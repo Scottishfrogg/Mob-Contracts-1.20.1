@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Undead Contract",
+  "task": "Kill 1 Zombie, Skeleton, Husk, Stray, Drowned, or Zombie Villager",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:husk",
+        "minecraft:stray",
+        "minecraft:drowned",
+        "minecraft:zombie_villager"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:1}]}"
+      }
+    ],
+    "xp": 10
+  }
+}

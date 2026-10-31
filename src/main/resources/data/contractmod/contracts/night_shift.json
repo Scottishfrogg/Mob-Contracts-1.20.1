@@ -1,0 +1,25 @@
+{
+  "type": "contract",
+  "name": "Night Shift",
+  "task": "Kill 5 hostile mobs between sunset and sunrise",
+  "objectives": [
+    {
+      "entities": [],
+      "count": 5,
+      "condition": "victim_hostile,nighttime"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_beef",
+        "count": 12
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 3
+      }
+    ],
+    "xp": 15
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/offer_made",
+  "display": {
+    "icon": {
+      "item": "contractmod:bounty"
+    },
+    "title": "Hunter",
+    "description": "Receive your first Bounty",
+    "frame": "goal"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:bounties_received",
+      "conditions": {
+        "count": 1
+      }
+    }
+  }
+}

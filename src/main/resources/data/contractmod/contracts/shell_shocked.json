@@ -1,0 +1,24 @@
+{
+  "type": "contract",
+  "name": "Shell Shocked",
+  "task": "Kill 3 Shulkers without being hit by a shulker bullet",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:shulker"
+      ],
+      "count": 3,
+      "reset_on": "shulker_bullet"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:shulker_shell",
+        "count": 5
+      }
+    ],
+    "xp": 30
+  }
+}

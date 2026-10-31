@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Shulker Contract",
+  "task": "Kill 1 Shulker",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:shulker"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:shulker_shell",
+        "count": 6
+      }
+    ],
+    "xp": 45
+  }
+}

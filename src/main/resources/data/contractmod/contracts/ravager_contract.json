@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Ravager Contract",
+  "task": "Kill 1 Ravager",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:ravager"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:saddle"
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 10
+      }
+    ],
+    "xp": 25
+  }
+}

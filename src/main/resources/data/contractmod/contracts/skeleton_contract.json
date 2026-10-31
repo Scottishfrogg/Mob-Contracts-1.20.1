@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Skeleton Contract",
+  "task": "Kill 1 Skeleton",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cobblestone",
+        "count": 20
+      }
+    ],
+    "xp": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Spider Contract",
+  "task": "Kill 1 Spider",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:spider"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:spider_eye",
+        "count": 6
+      }
+    ],
+    "xp": 15
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "contract",
+  "name": "Elder Guardian Contract",
+  "task": "Kill 1 Elder Guardian",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:elder_guardian"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 15
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "count": 15
+      },
+      {
+        "item": "minecraft:sea_lantern",
+        "count": 15
+      }
+    ],
+    "xp": 35
+  }
+}

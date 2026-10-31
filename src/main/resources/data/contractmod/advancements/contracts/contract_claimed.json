@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/null_and_void",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": "Contract Claimed",
+    "description": "Complete 50 Contracts",
+    "frame": "goal"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:contracts_completed",
+      "conditions": {
+        "count": 50
+      }
+    }
+  }
+}

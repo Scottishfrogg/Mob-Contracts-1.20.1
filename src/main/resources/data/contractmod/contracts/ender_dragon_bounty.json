@@ -1,0 +1,28 @@
+{
+  "type": "bounty",
+  "name": "Ender Dragon Bounty",
+  "task": "Kill the Ender Dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:ender_dragon"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:dragon_breath",
+        "count": 5
+      },
+      {
+        "item": "minecraft:dragon_head"
+      },
+      {
+        "item": "minecraft:dragon_egg"
+      }
+    ],
+    "xp": 80
+  }
+}

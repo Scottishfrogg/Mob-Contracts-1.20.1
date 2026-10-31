@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Sheep Contract",
+  "task": "Kill 1 Sheep",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:sheep"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:white_wool",
+        "count": 15
+      }
+    ],
+    "xp": 10
+  }
+}

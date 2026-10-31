@@ -1,0 +1,26 @@
+{
+  "type": "bounty",
+  "name": "Deep Sea Exterminator",
+  "task": "Kill 3 Elder Guardians",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:elder_guardian"
+      ],
+      "count": 3
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 32
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "count": 16
+      }
+    ],
+    "xp": 70
+  }
+}

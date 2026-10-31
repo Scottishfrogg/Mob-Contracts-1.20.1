@@ -1,0 +1,29 @@
+{
+  "type": "contract",
+  "name": "Sun's Out!",
+  "task": "Kill a Skeleton by luring it out into the daylight",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "skeleton_sun_kill",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:arrow",
+        "count": 8
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 5
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 10
+      }
+    ],
+    "xp": 10
+  }
+}

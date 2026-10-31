@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Daybreak",
+  "task": "Kill 3 Skeletons that are burning in the daylight",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 3,
+      "condition": "daytime,victim_on_fire"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

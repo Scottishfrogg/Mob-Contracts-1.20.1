@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "End of the Line",
+  "task": "Kill 5 Endermen with an enchanted sword",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:enderman"
+      ],
+      "count": 5,
+      "condition": "enchanted_sword"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 8
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 3
+      }
+    ],
+    "xp": 30
+  }
+}

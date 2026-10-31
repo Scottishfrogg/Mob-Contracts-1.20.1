@@ -1,0 +1,24 @@
+{
+  "type": "contract",
+  "name": "Rain Check",
+  "task": "Kill 1 Enderman while it is taking damage from rain or water",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:enderman"
+      ],
+      "count": 1,
+      "condition": "victim_wet"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 4
+      }
+    ],
+    "xp": 15
+  }
+}

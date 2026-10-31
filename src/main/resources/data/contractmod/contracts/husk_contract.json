@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Husk Contract",
+  "task": "Kill 1 Husk",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:husk"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:sand",
+        "count": 10
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 3
+      }
+    ],
+    "xp": 10
+  }
+}

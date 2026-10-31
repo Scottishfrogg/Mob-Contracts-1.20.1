@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Cow Contract",
+  "task": "Kill 1 Cow",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:cow"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:leather",
+        "count": 15
+      }
+    ],
+    "xp": 5
+  }
+}

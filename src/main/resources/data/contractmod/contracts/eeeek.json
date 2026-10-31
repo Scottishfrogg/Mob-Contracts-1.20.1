@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Eeeek!",
+  "task": "Have a Creeper be scared by a cat you tamed",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "creeper_scared_by_cat",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_salmon",
+        "count": 10
+      },
+      {
+        "item": "minecraft:lapis_lazuli",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

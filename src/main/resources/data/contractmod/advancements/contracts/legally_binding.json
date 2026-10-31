@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/offer_made",
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": "Legally Binding",
+    "description": "Complete 5 Contracts",
+    "frame": "task"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:contracts_completed",
+      "conditions": {
+        "count": 5
+      }
+    }
+  }
+}

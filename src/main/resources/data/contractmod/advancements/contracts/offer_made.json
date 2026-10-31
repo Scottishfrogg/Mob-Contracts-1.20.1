@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "Offer Made",
+    "description": "Complete 1 Contract",
+    "frame": "task"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:contracts_completed",
+      "conditions": {
+        "count": 1
+      }
+    }
+  }
+}

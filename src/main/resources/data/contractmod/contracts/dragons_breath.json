@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Dragon's Breath",
+  "task": "Collect 3 Dragon's Breath clouds using empty glass bottles",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "dragon_breath_collected",
+      "count": 3
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 8
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      }
+    ],
+    "xp": 10
+  }
+}

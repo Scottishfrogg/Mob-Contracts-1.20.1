@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Sword Game",
+  "task": "Kill a Skeleton with a wooden sword",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 1,
+      "condition": "wooden_sword"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:bone_meal",
+        "count": 16
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 8
+      }
+    ],
+    "xp": 10
+  }
+}

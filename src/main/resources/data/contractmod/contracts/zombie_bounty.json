@@ -1,0 +1,23 @@
+{
+  "type": "bounty",
+  "name": "Zombie Bounty",
+  "task": "Kill 1 Zombie with only your fists",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 1,
+      "condition": "fists_only"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 3
+      }
+    ],
+    "xp": 15
+  }
+}

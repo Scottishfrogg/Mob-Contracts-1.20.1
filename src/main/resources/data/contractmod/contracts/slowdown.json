@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Slowdown",
+  "task": "Apply slowness to a Stray",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "slowness_on_stray",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:splash_potion",
+        "count": 2,
+        "nbt": "{Potion:\"minecraft:slowness\"}"
+      }
+    ],
+    "xp": 20
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "contract",
+  "name": "Ride of the Damned",
+  "task": "Kill 4 Skeletons riding Skeleton Horses",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 4,
+      "condition": "riding:minecraft:skeleton_horse"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:saddle",
+        "count": 4
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2
+      }
+    ],
+    "xp": 40
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Fish Out of Water",
+  "task": "Kill a Drowned on land",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:drowned"
+      ],
+      "count": 1,
+      "condition": "victim_on_land"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 5
+      },
+      {
+        "item": "minecraft:fishing_rod"
+      }
+    ],
+    "xp": 10
+  }
+}

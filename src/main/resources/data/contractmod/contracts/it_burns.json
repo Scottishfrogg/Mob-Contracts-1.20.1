@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "It burns!",
+  "task": "Kill a Zombie during the day",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 1,
+      "condition": "daytime"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 5
+      }
+    ],
+    "xp": 15
+  }
+}

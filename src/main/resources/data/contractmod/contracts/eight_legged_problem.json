@@ -1,0 +1,31 @@
+{
+  "type": "bounty",
+  "name": "Eight-Legged Problem",
+  "task": "Kill 3 Spiders without taking any damage",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:spider"
+      ],
+      "count": 3,
+      "reset_on": "any"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 3
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 3
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "count": 3
+      }
+    ],
+    "xp": 20
+  }
+}

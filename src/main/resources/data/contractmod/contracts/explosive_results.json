@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Explosive Results",
+  "task": "Kill 10 Creepers without taking explosion damage",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "count": 10,
+      "reset_on": "explosion"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 32
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      }
+    ],
+    "xp": 50
+  }
+}

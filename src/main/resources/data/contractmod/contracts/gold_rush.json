@@ -1,0 +1,24 @@
+{
+  "type": "contract",
+  "name": "Gold Rush",
+  "task": "Kill 10 Piglins while wearing no gold armor",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:piglin"
+      ],
+      "count": 10,
+      "condition": "no_gold_armor"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 40
+      }
+    ],
+    "xp": 40
+  }
+}

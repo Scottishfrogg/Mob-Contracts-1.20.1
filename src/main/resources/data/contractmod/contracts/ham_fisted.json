@@ -1,0 +1,31 @@
+{
+  "type": "contract",
+  "name": "Ham Fisted",
+  "task": "Kill 3 Hoglins without using a shield",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:hoglin"
+      ],
+      "count": 3,
+      "reset_on": "shield_block"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "count": 32
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 8
+      },
+      {
+        "item": "minecraft:golden_apple"
+      }
+    ],
+    "xp": 40
+  }
+}

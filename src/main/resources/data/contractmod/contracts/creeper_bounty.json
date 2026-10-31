@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Creeper Bounty",
+  "task": "Kill 1 Creeper with only your fists",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "count": 1,
+      "condition": "fists_only"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 15
+      },
+      {
+        "item": "minecraft:redstone",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

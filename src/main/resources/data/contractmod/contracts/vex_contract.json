@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Vex Contract",
+  "task": "Kill 1 Vex",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:vex"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_sword"
+      }
+    ],
+    "xp": 15
+  }
+}

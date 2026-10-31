@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Deep Sea Menace",
+  "task": "Kill 3 Guardians without having Mining Fatigue",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:guardian"
+      ],
+      "count": 3,
+      "condition": "no_mining_fatigue"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 16
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "count": 8
+      }
+    ],
+    "xp": 30
+  }
+}

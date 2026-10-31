@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Blackout",
+  "task": "Kill 5 Wither Skeletons without receiving the Wither effect",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:wither_skeleton"
+      ],
+      "count": 5,
+      "reset_on": "wither_effect"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "count": 2
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 32
+      }
+    ],
+    "xp": 45
+  }
+}

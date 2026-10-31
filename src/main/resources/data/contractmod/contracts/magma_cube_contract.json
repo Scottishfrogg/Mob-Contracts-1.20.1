@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Magma Cube Contract",
+  "task": "Kill 1 Magma Cube",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:magma_cube"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2
+      }
+    ],
+    "xp": 35
+  }
+}

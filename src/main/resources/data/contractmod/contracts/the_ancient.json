@@ -1,0 +1,47 @@
+{
+  "type": "covenant",
+  "name": "The Ancient",
+  "task": "Kill The Voidwalker",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:enderman",
+    "name": "Voidwalker",
+    "dimension": "minecraft:the_end",
+    "anchor": "world_origin",
+    "min_distance": 30,
+    "max_distance": 80,
+    "effects": [
+      {
+        "effect": "minecraft:strength",
+        "amplifier": 1
+      },
+      {
+        "effect": "minecraft:health_boost",
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:resistance",
+        "amplifier": 0
+      }
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 64
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      }
+    ],
+    "xp": 55
+  }
+}

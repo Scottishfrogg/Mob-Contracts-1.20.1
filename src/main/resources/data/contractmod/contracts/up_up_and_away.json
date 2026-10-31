@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Up up and away!",
+  "task": "Get a Shulker to hit you and give you levitation",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "shulker_levitation",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:shulker_shell",
+        "count": 20
+      }
+    ],
+    "xp": 30
+  }
+}

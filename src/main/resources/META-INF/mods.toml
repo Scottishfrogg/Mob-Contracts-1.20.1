@@ -1,0 +1,28 @@
+# Minimal mods.toml for Mob Contracts (Forge 1.20.1).
+# modId MUST match MOD_ID in ContractMod.java ("contractmod") and mod_id in gradle.properties.
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="contractmod"
+version="1.0.0"
+logoFile="icon.png"
+displayName="Mob Contracts"
+description='''
+Contracts, bounties and covenants that reward you for hunting mobs, with hunter ranks and a hunt history.
+'''
+
+[[dependencies.contractmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.contractmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Evoker Contract",
+  "task": "Kill 1 Evoker",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:evoker"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:totem_of_undying"
+      }
+    ],
+    "xp": 10
+  }
+}

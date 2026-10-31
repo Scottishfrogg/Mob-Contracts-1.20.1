@@ -1,0 +1,48 @@
+{
+  "type": "covenant",
+  "name": "The Terrible",
+  "task": "Kill Ivan The Terrible",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:zombie",
+    "name": "Ivan The Terrible",
+    "dimension": "minecraft:overworld",
+    "equipment": {
+      "head": {
+        "item": "minecraft:golden_helmet"
+      },
+      "chest": {
+        "item": "minecraft:golden_chestplate"
+      },
+      "legs": {
+        "item": "minecraft:golden_leggings"
+      },
+      "feet": {
+        "item": "minecraft:golden_boots"
+      },
+      "mainhand": {
+        "item": "minecraft:golden_sword",
+        "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:3}]}"
+      }
+    }
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:3}]}"
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 64
+      }
+    ],
+    "xp": 40
+  }
+}

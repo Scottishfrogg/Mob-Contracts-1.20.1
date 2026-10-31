@@ -1,0 +1,55 @@
+{
+  "type": "covenant",
+  "name": "The Raider",
+  "task": "Kill Snoutzer",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:piglin",
+    "name": "Snoutzer",
+    "dimension": "minecraft:the_nether",
+    "equipment": {
+      "head": {
+        "item": "minecraft:golden_helmet"
+      },
+      "chest": {
+        "item": "minecraft:golden_chestplate"
+      },
+      "legs": {
+        "item": "minecraft:golden_leggings"
+      },
+      "feet": {
+        "item": "minecraft:golden_boots"
+      },
+      "mainhand": {
+        "item": "minecraft:golden_sword",
+        "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:4}]}"
+      }
+    },
+    "behaviors": [
+      "hostile_to_owner"
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:4}]}"
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 64
+      },
+      {
+        "item": "minecraft:netherite_scrap",
+        "count": 2
+      }
+    ],
+    "xp": 50
+  }
+}

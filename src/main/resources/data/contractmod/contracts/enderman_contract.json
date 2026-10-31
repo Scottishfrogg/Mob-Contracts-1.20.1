@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Enderman Contract",
+  "task": "Kill 1 Enderman",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:enderman"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 5
+      }
+    ],
+    "xp": 15
+  }
+}

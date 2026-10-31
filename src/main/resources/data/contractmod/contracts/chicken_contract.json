@@ -1,0 +1,25 @@
+{
+  "type": "contract",
+  "name": "Chicken Contract",
+  "task": "Kill 1 Chicken",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:chicken"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:arrow"
+      },
+      {
+        "item": "minecraft:cooked_chicken",
+        "count": 3
+      }
+    ],
+    "xp": 10
+  }
+}

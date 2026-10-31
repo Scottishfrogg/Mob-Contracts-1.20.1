@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "The Horde",
+  "task": "Kill 30 Zombies",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 30
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:oak_planks",
+        "count": 32
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 10
+      }
+    ],
+    "xp": 30
+  }
+}

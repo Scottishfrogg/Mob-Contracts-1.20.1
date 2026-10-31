@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Hoglin Contract",
+  "task": "Kill 1 Hoglin",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:hoglin"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "count": 16
+      }
+    ],
+    "xp": 30
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "covenant",
+  "name": "The Bullseye",
+  "task": "Kill Grimshot",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:skeleton",
+    "name": "Grimshot",
+    "dimension": "minecraft:overworld",
+    "equipment": {
+      "head": {
+        "item": "minecraft:golden_helmet"
+      },
+      "chest": {
+        "item": "minecraft:golden_chestplate"
+      },
+      "legs": {
+        "item": "minecraft:golden_leggings"
+      },
+      "feet": {
+        "item": "minecraft:golden_boots"
+      },
+      "mainhand": {
+        "item": "minecraft:bow"
+      }
+    },
+    "behaviors": [
+      "fast_fire",
+      "tipped_harming_arrows"
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tipped_arrow",
+        "count": 32,
+        "nbt": "{Potion:\"minecraft:harming\"}"
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      }
+    ],
+    "xp": 45
+  }
+}

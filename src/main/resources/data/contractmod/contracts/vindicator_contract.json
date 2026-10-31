@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Vindicator Contract",
+  "task": "Kill 1 Vindicator",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:vindicator"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_axe"
+      }
+    ],
+    "xp": 20
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "bounty",
+  "name": "Head Hunter",
+  "task": "Obtain 5 Wither Skeleton Skulls",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "wither_skulls_held",
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 64
+      }
+    ],
+    "xp": 60
+  }
+}

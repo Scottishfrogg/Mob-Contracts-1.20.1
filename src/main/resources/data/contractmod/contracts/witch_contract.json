@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Witch Contract",
+  "task": "Kill 1 Witch",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:witch"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:splash_potion",
+        "nbt": "{Potion:\"minecraft:regeneration\"}"
+      }
+    ],
+    "xp": 15
+  }
+}

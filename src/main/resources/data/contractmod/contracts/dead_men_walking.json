@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Dead Men Walking",
+  "task": "Kill 50 Zombies without taking any damage",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 50,
+      "reset_on": "any"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 64
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 32
+      }
+    ],
+    "xp": 60
+  }
+}

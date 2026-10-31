@@ -1,0 +1,23 @@
+{
+  "type": "bounty",
+  "name": "Enderman Bounty",
+  "task": "Kill 1 Enderman with only your fists",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:enderman"
+      ],
+      "count": 1,
+      "condition": "fists_only"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 10
+      }
+    ],
+    "xp": 20
+  }
+}

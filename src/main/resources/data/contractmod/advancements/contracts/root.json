@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "contractmod:contract"
+    },
+    "title": "Mob Contracts",
+    "description": "Hunt on commission",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

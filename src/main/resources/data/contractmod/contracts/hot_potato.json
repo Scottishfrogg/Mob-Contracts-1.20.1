@@ -1,0 +1,25 @@
+{
+  "type": "contract",
+  "name": "Hot Potato",
+  "task": "Ignite a Creeper with flint and steel",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "creeper_ignited",
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 3
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 5
+      }
+    ],
+    "xp": 10
+  }
+}

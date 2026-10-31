@@ -1,0 +1,39 @@
+{
+  "type": "contract",
+  "name": "Zomboids",
+  "task": "Kill 2 Zombies, 2 Drowned, and 2 Husks",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 2
+    },
+    {
+      "entities": [
+        "minecraft:drowned"
+      ],
+      "count": 2
+    },
+    {
+      "entities": [
+        "minecraft:husk"
+      ],
+      "count": 2
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 10
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 10
+      }
+    ],
+    "xp": 25
+  }
+}

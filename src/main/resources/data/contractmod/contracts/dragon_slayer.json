@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Dragon Slayer",
+  "task": "Kill the Ender Dragon without destroying any End Crystals",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:ender_dragon"
+      ],
+      "count": 1,
+      "condition": "no_crystals_destroyed"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:diamond",
+        "count": 64
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 128
+      }
+    ],
+    "xp": 100
+  }
+}

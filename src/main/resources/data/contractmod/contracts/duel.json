@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Duel",
+  "task": "Kill a Skeleton with a bow",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 1,
+      "condition": "bow_kill"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:2}]}"
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      }
+    ],
+    "xp": 15
+  }
+}

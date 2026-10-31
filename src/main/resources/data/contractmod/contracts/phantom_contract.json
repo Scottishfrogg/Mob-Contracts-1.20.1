@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "Phantom Contract",
+  "task": "Kill 1 Phantom",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:phantom"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "count": 2
+      }
+    ],
+    "xp": 20
+  }
+}

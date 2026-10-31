@@ -1,0 +1,26 @@
+{
+  "type": "bounty",
+  "name": "The Swarm",
+  "task": "Kill 100 Zombies",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 100
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 256
+      },
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 256
+      }
+    ],
+    "xp": 80
+  }
+}

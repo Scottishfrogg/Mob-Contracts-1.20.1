@@ -1,0 +1,26 @@
+{
+  "type": "bounty",
+  "name": "No Negotiations",
+  "task": "Kill 10 Piglin Brutes",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:piglin_brute"
+      ],
+      "count": 10
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 32
+      },
+      {
+        "item": "minecraft:netherite_scrap",
+        "count": 4
+      }
+    ],
+    "xp": 60
+  }
+}

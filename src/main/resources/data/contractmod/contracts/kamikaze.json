@@ -1,0 +1,39 @@
+{
+  "type": "covenant",
+  "name": "Kamikaze",
+  "task": "Kill Boomslayer",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "elite_target_killed",
+      "count": 1
+    }
+  ],
+  "elite": {
+    "entity": "minecraft:creeper",
+    "name": "Boomslayer",
+    "dimension": "minecraft:overworld",
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 2
+      }
+    ],
+    "behaviors": [
+      "respawn_on_explosion"
+    ]
+  },
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 64
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 24
+      }
+    ],
+    "xp": 50
+  }
+}

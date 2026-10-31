@@ -1,0 +1,26 @@
+{
+  "type": "bounty",
+  "name": "Skeleton Bounty",
+  "task": "Kill 1 Skeleton with only your fists",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:skeleton"
+      ],
+      "count": 1,
+      "condition": "fists_only"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "xp": 10
+  }
+}

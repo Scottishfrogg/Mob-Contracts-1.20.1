@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Collateral Damage",
+  "task": "Have a Creeper explosion kill 2 hostile mobs",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "creeper_blast_kills",
+      "count": 2
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt",
+        "count": 5
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 8
+      }
+    ],
+    "xp": 20
+  }
+}

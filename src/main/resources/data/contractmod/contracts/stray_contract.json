@@ -1,0 +1,24 @@
+{
+  "type": "contract",
+  "name": "Stray Contract",
+  "task": "Kill 1 Stray",
+  "unlock": "minecraft:adventure/kill_a_mob",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:stray"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tipped_arrow",
+        "count": 5,
+        "nbt": "{Potion:\"minecraft:slowness\"}"
+      }
+    ],
+    "xp": 10
+  }
+}

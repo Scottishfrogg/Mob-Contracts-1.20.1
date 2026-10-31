@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Piglin Brute Contract",
+  "task": "Kill 1 Piglin Brute",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:piglin_brute"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:golden_axe",
+        "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:2}]}"
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 15
+      }
+    ],
+    "xp": 25
+  }
+}

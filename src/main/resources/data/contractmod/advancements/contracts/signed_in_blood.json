@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/contractual_obligation",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": "Signed in Blood",
+    "description": "Complete 100 Contracts",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:contracts_completed",
+      "conditions": {
+        "count": 100
+      }
+    }
+  }
+}

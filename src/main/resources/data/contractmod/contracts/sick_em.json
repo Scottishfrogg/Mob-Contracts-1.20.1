@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Sick Em'",
+  "task": "Get 5 tamed wolves to attack a Zombie",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "type": "event",
+      "event": "wolves_attack_zombie",
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:bone",
+        "count": 64
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 64
+      }
+    ],
+    "xp": 35
+  }
+}

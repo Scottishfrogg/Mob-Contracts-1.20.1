@@ -1,0 +1,30 @@
+{
+  "type": "contract",
+  "name": "Wither Skeleton Contract",
+  "task": "Kill 1 Wither Skeleton",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:wither_skeleton"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:stone_sword"
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 20
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:1}]}"
+      }
+    ],
+    "xp": 20
+  }
+}

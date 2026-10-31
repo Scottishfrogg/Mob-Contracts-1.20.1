@@ -1,0 +1,25 @@
+{
+  "type": "contract",
+  "name": "Creeper Contract",
+  "task": "Kill 1 Creeper",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:tnt"
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 10
+      }
+    ],
+    "xp": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "contract",
+  "name": "Pillager Contract",
+  "task": "Kill 1 Pillager",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:pillager"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:crossbow"
+      },
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      }
+    ],
+    "xp": 15
+  }
+}

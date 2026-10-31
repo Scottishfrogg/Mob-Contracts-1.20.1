@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Nether Hunter",
+  "task": "Kill 20 Wither Skeletons without taking damage",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:wither_skeleton"
+      ],
+      "count": 20,
+      "reset_on": "any"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:netherite_ingot",
+        "count": 5
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 16
+      }
+    ],
+    "xp": 80
+  }
+}

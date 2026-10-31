@@ -1,0 +1,27 @@
+{
+  "type": "contract",
+  "name": "Zoglin Contract",
+  "task": "Kill 1 Zoglin",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zoglin"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "count": 40
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 5
+      }
+    ],
+    "xp": 25
+  }
+}

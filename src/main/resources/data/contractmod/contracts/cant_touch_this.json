@@ -1,0 +1,27 @@
+{
+  "type": "bounty",
+  "name": "Can't touch this",
+  "task": "Kill 10 Zombies without taking damage",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "count": 10,
+      "reset_on": "any"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 32
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 32
+      }
+    ],
+    "xp": 30
+  }
+}

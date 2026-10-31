@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "Return to Sender",
+  "task": "Kill a Ghast with its own fireball",
+  "unlock": "minecraft:nether/obtain_blaze_rod",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:ghast"
+      ],
+      "count": 1,
+      "condition": "own_fireball"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ghast_tear",
+        "count": 5
+      },
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 16
+      }
+    ],
+    "xp": 40
+  }
+}

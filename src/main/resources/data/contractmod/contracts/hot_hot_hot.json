@@ -1,0 +1,24 @@
+{
+  "type": "contract",
+  "name": "Hot hot hot!",
+  "task": "Kill a Blaze while on fire",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:blaze"
+      ],
+      "count": 1,
+      "condition": "player_on_fire"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 16
+      }
+    ],
+    "xp": 40
+  }
+}

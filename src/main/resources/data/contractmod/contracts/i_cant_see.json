@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "I can't see!",
+  "task": "Kill an Enderman while wearing a pumpkin",
+  "unlock": "minecraft:end/kill_dragon",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:enderman"
+      ],
+      "count": 1,
+      "condition": "wearing_pumpkin"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 5
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 5
+      }
+    ],
+    "xp": 40
+  }
+}

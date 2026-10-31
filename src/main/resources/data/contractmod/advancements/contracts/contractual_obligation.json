@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/contract_claimed",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Contractual Obligation",
+    "description": "Complete 75 Contracts",
+    "frame": "goal"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:contracts_completed",
+      "conditions": {
+        "count": 75
+      }
+    }
+  }
+}

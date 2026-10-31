@@ -1,0 +1,19 @@
+{
+  "parent": "contractmod:contracts/root",
+  "display": {
+    "icon": {
+      "item": "contractmod:covenant"
+    },
+    "title": "Elite Hunt",
+    "description": "Complete your first Covenant",
+    "frame": "goal"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "contractmod:covenants_completed",
+      "conditions": {
+        "count": 1
+      }
+    }
+  }
+}

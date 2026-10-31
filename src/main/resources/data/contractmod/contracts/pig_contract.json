@@ -1,0 +1,22 @@
+{
+  "type": "contract",
+  "name": "Pig Contract",
+  "task": "Kill 1 Pig",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:pig"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "count": 5
+      }
+    ],
+    "xp": 10
+  }
+}

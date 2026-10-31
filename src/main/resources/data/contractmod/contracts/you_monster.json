@@ -1,0 +1,23 @@
+{
+  "type": "contract",
+  "name": "You monster!",
+  "task": "Kill 5 Villagers",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:villager"
+      ],
+      "count": 5
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:emerald",
+        "count": 20
+      }
+    ],
+    "xp": 30
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "contract",
+  "name": "High Noon",
+  "task": "Kill a Pillager with a crossbow",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:pillager"
+      ],
+      "count": 1,
+      "condition": "crossbow_kill"
+    }
+  ],
+  "reward": {
+    "items": [
+      {
+        "item": "minecraft:arrow",
+        "count": 16
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": 10
+      }
+    ],
+    "xp": 15
+  }
+}

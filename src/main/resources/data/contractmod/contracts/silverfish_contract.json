@@ -1,0 +1,18 @@
+{
+  "type": "contract",
+  "name": "Silverfish Contract",
+  "task": "Kill 1 Silverfish",
+  "unlock": "minecraft:story/smelt_iron",
+  "objectives": [
+    {
+      "entities": [
+        "minecraft:silverfish"
+      ],
+      "count": 1
+    }
+  ],
+  "reward": {
+    "items": [],
+    "xp": 30
+  }
+}
